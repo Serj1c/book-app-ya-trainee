@@ -3,8 +3,9 @@ import styles from './Header.module.css';
 
 export const Header: React.FunctionComponent = (): JSX.Element => {
     return (
-        <div>
-            <h2>I am a header</h2>
+        <div className={styles.root}>
+            <span className={styles.left}>Bookly</span>
+            <span className={styles.right}>Find something to read while in the lockdown</span>
         </div>
     )
 }

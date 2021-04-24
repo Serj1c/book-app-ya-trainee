@@ -5,7 +5,7 @@ export const Search: React.FunctionComponent = (): JSX.Element => {
     return (
         <div className={styles.root}>
             <input type="text"/>
-            <button>Search</button>
+            <button className={styles.button}>Search</button>
         </div>
     )
 }

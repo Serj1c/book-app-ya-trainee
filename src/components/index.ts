@@ -1,4 +1,5 @@
 export { Header } from './Header';
-export { Container } from './Container';
+export { ListOfBooks } from './ListOfBooks';
 export { Search } from './Search';
+export { Book } from './Book';
 export { MainPage } from './MainPage';
