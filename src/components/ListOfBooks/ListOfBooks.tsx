@@ -6,7 +6,6 @@ import styles from './ListOfBooks.module.css';
 
 export const ListOfBooks: React.FunctionComponent = () : JSX.Element => {
 
-
     const books = useSelector((state: any) => state.book.books.docs);
     console.log(books);
 
