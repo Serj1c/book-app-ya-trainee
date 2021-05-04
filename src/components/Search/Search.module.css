@@ -7,4 +7,26 @@
 
 .button {
     margin-left: 0.5rem;
+    padding: 0 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: #ffffff;
+    background-color: #009cf3;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color:#0083cc;
+    transition-duration: 0.5s;
+}
+
+.input {
+    border: 1px solid #e0e0e0;
+    font-size: 1rem;
+    line-height: 2rem;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+    outline: none;
+    width: 50%;
 }

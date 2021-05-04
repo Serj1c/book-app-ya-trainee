@@ -1,13 +1,29 @@
 .card {
+    display: flex;
     width: 70%;
+    min-height: 80px;
     height: fit-content;
     margin-top: 0.5rem;
     padding: 0.5rem 1rem;
     border: 1px #999999 solid;
     border-radius: 10px;
-  }
+    align-items: center;
+}
   
 .card:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     cursor: pointer;
+}
+
+.card_text {
+    margin-left: 1rem;
+}
+
+.modal_title {
+    margin: 0.5rem auto;
+}
+
+.modal_text {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
 }

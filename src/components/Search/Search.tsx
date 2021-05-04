@@ -21,7 +21,7 @@ export const Search: React.FunctionComponent = (): JSX.Element => {
 
     return (
         <div className={styles.root}>
-            <input type="text" value={searchItem} onChange={onChangeHandler}/>
+            <input type="text" value={searchItem} onChange={onChangeHandler} className={styles.input}/>
             <button className={styles.button} onClick={fetchBooksHandler}>Search</button>
         </div>
     )
